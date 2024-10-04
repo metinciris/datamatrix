@@ -42,4 +42,7 @@ pip install opencv-python pylibdmtx pyperclip
 
 - **datamatrix.py**: Ana Python dosyası, kodların taranmasını ve sonucun alınmasını sağlar.
 - **codes_memory.txt**: Taranan her kod için girilen tanımları kalıcı olarak saklar.
+- **datamatrix3.py**: Bu güncellenmiş kod, artık webcam kullanmadan COM4 portundan gelen barkod ve data matrix kodlarını işler. codes_memory.txt dosyasını kullanarak kodları ve tanımlarını yönetir. Program, COM4 portundan gelen kodları otomatik olarak alır ve arayüzde ilgili işlemleri gerçekleştirir.
 
+## geliştirme
+Agilent immunhistokimya preparat etiketlerinde matrix kodları var. Her etiketin farklı kodu olduğu için kullanılabilir değil. Aynı antikora ait tüm preparatlar benzersiz farklı kodlarda. Proje bu nedenle askıda.
